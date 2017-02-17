@@ -49,7 +49,7 @@ public class FileUploadControllerTest {
     public void setUp() {
         upload = new FileUpload();
         urlPhotoDownload = "https://www.google.com/images/srpr";
-        urlPhotoUpload = "http://localhost:9000/fileStorage/photo/upload?cacheImage=true";
+        urlPhotoUpload = "http://localhost:9000/SpringFileUpload2/photo/upload?cacheImage=true";
     }
 
     @After

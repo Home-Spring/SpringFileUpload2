@@ -21,7 +21,7 @@ import org.springframework.http.HttpStatus;
  */
 
 @RestController
-@RequestMapping(value = "/fileStorage")
+@RequestMapping(value = "/SpringFileUpload2")
 public class FileUploadController {
 
     private static final Logger logger = LoggerFactory.getLogger(FileUploadController.class);
@@ -46,7 +46,7 @@ public class FileUploadController {
         if (!file.isEmpty()) {
             try {
                 // Creating the directory to store file
-                String rootPath =  "D:\\IdeaProjects\\GUP\\SpringFileUpload";
+                String rootPath =  "D:\\IdeaProjects\\spring\\SpringFileUpload_restore\\SpringFileUpload2";
                 File        dir = new File(rootPath + File.separator + "photos");
                 if (!dir.exists()) dir.mkdirs();
 

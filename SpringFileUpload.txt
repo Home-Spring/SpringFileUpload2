@@ -1,0 +1,14 @@
+
+Проект "Spring MVC File Upload Example Tutorial – Single and Multiple Files"
+------
+>    http://www.journaldev.com/2573/spring-mvc-file-upload-example-single-multiple-files  ( http://www.journaldev.com/2552/spring-rest-example-tutorial-spring-restful-web-services )  |  D:\IdeaProjects\spring\SpringFileUpload
+>    jdk-1.8  |  org.springframework.boot-1.2.5.RELEASE  |  org.springframework-4.0.0.RELEASE
+>    Tomcat-8  |  fileStorage.war  |  http://localhost:8083/fileStorage  |  ( http://localhost:8083/fileStorage/upload.jsp )  http://localhost:8083/fileStorage/photo/upload?cacheImage=true
+>    com.journaldev.spring  |  com.journaldev.spring.controller.FileUploadController
+>    resources  |  png_614x461.png, png_32x32.png, png_83x100.png, png_145x217.jpg, png_240x50.png, png_32x32.png  |  ( D:\server\apache-tomcat-8.0.15\tmpFiles )  D:\IdeaProjects\spring\SpringFileUpload\photos
+
+======
+>    http://localhost:8083/fileStorage  |  ( http://localhost:8083/fileStorage/upload.jsp )  http://localhost:8083/fileStorage/photo/upload?cacheImage=true  |  (File) file=<..>  (Text) name=<..>  |  { "id" : "avatar.png" }
+>    D:\server\apache-tomcat-8.0.15\photos
+
+
